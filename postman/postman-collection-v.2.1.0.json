@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "cartera",
-    "_postman_id": "7e22457d-03b2-4a1e-8ed6-77896cf7f3c1",
+    "_postman_id": "1d13a062-7f16-4867-9c38-acc2864c6d9b",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
@@ -78,7 +78,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8532\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-10T15:06:45.463Z\",\n    \"updatedAt\": \"2024-07-13T06:47:37.721Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63120\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-14T08:06:21.786Z\",\n    \"updatedAt\": \"2024-02-08T15:28:25.190Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -114,7 +114,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Marjorie Wunsch\",\n  \"string\": \"Agent\",\n  \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n  \"userID\": \"Brazilian\",\n  \"cardType\": \"Bedfordshire\",\n  \"status\": \"Land\",\n  \"isDefault\": false\n}"
+                  "raw": "{\n  \"name\": \"Melba Waters\",\n  \"startdate\": \"2024-03-27T23:56:12.199Z\",\n  \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n  \"cvv\": \"magenta\",\n  \"userID\": \"grow\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -145,7 +145,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8530\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-10T15:06:45.463Z\",\n    \"updatedAt\": \"2024-07-13T06:47:37.721Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f6311e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-14T08:06:21.786Z\",\n    \"updatedAt\": \"2024-02-08T15:28:25.190Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -212,7 +212,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Marjorie Wunsch\",\n        \"string\": \"Agent\",\n        \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n        \"userID\": \"Brazilian\",\n        \"cardType\": \"Bedfordshire\",\n        \"status\": \"Land\",\n        \"isDefault\": false,\n        \"id\": \"6548dc17f300e1706f3b8531\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-10-10T15:06:45.463Z\",\n        \"updatedAt\": \"2024-07-13T06:47:37.721Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Melba Waters\",\n        \"startdate\": \"2024-03-27T23:56:12.199Z\",\n        \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n        \"cvv\": \"magenta\",\n        \"userID\": \"grow\",\n        \"id\": \"654a10ef5601260431f6311f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-08-14T08:06:21.786Z\",\n        \"updatedAt\": \"2024-02-08T15:28:25.190Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -315,7 +315,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Marjorie Wunsch\",\n      \"string\": \"Agent\",\n      \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n      \"userID\": \"Brazilian\",\n      \"cardType\": \"Bedfordshire\",\n      \"status\": \"Land\",\n      \"isDefault\": false\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Melba Waters\",\n      \"startdate\": \"2024-03-27T23:56:12.199Z\",\n      \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n      \"cvv\": \"magenta\",\n      \"userID\": \"grow\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -455,7 +455,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Marjorie Wunsch\",\n  \"string\": \"Agent\",\n  \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n  \"userID\": \"Brazilian\",\n  \"cardType\": \"Bedfordshire\",\n  \"status\": \"Land\",\n  \"isDefault\": false\n}"
+                  "raw": "{\n  \"name\": \"Melba Waters\",\n  \"startdate\": \"2024-03-27T23:56:12.199Z\",\n  \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n  \"cvv\": \"magenta\",\n  \"userID\": \"grow\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -492,7 +492,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8533\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-10T15:06:45.463Z\",\n    \"updatedAt\": \"2024-07-13T06:47:37.721Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63121\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-14T08:06:21.786Z\",\n    \"updatedAt\": \"2024-02-08T15:28:25.190Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -571,7 +571,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8534\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-10T15:06:45.463Z\",\n    \"updatedAt\": \"2024-07-13T06:47:37.721Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63122\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-14T08:06:21.786Z\",\n    \"updatedAt\": \"2024-02-08T15:28:25.190Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1071,7 +1071,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8541\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T03:31:00.985Z\",\n    \"updatedAt\": \"2024-10-17T04:40:07.322Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63130\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-21T21:35:33.065Z\",\n    \"updatedAt\": \"2024-01-20T02:07:35.092Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1107,7 +1107,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"firstName\": \"Ira Lesch\",\n  \"lastName\": \"Kristine Okuneva\",\n  \"name\": \"Johnnie Paucek\",\n  \"profile\": \"maximize\",\n  \"contactNumber\": \"Regional\",\n  \"email\": \"Prince_Pacocha@hotmail.com\"\n}"
+                  "raw": "{\n  \"firstName\": \"Mike Stoltenberg\",\n  \"lastName\": \"Edmond Schamberger\",\n  \"name\": \"Santos Metz\",\n  \"profile\": \"bypassing\",\n  \"contactNumber\": \"parsing\",\n  \"email\": \"Esta_Kling96@gmail.com\",\n  \"cards\": \"654a10ef5601260431f6312c\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1138,7 +1138,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b853f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T03:31:00.985Z\",\n    \"updatedAt\": \"2024-10-17T04:40:07.322Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f6312e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-21T21:35:33.065Z\",\n    \"updatedAt\": \"2024-01-20T02:07:35.092Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1205,7 +1205,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"firstName\": \"Ira Lesch\",\n        \"lastName\": \"Kristine Okuneva\",\n        \"name\": \"Johnnie Paucek\",\n        \"profile\": \"maximize\",\n        \"contactNumber\": \"Regional\",\n        \"email\": \"Prince_Pacocha@hotmail.com\",\n        \"id\": \"6548dc17f300e1706f3b8540\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-01-12T03:31:00.985Z\",\n        \"updatedAt\": \"2024-10-17T04:40:07.322Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"firstName\": \"Mike Stoltenberg\",\n        \"lastName\": \"Edmond Schamberger\",\n        \"name\": \"Santos Metz\",\n        \"profile\": \"bypassing\",\n        \"contactNumber\": \"parsing\",\n        \"email\": \"Esta_Kling96@gmail.com\",\n        \"cards\": \"654a10ef5601260431f6312c\",\n        \"id\": \"654a10ef5601260431f6312f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-08-21T21:35:33.065Z\",\n        \"updatedAt\": \"2024-01-20T02:07:35.092Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1308,7 +1308,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"firstName\": \"Ira Lesch\",\n      \"lastName\": \"Kristine Okuneva\",\n      \"name\": \"Johnnie Paucek\",\n      \"profile\": \"maximize\",\n      \"contactNumber\": \"Regional\",\n      \"email\": \"Prince_Pacocha@hotmail.com\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"firstName\": \"Mike Stoltenberg\",\n      \"lastName\": \"Edmond Schamberger\",\n      \"name\": \"Santos Metz\",\n      \"profile\": \"bypassing\",\n      \"contactNumber\": \"parsing\",\n      \"email\": \"Esta_Kling96@gmail.com\",\n      \"cards\": \"654a10ef5601260431f6312c\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1448,7 +1448,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"firstName\": \"Ira Lesch\",\n  \"lastName\": \"Kristine Okuneva\",\n  \"name\": \"Johnnie Paucek\",\n  \"profile\": \"maximize\",\n  \"contactNumber\": \"Regional\",\n  \"email\": \"Prince_Pacocha@hotmail.com\"\n}"
+                  "raw": "{\n  \"firstName\": \"Mike Stoltenberg\",\n  \"lastName\": \"Edmond Schamberger\",\n  \"name\": \"Santos Metz\",\n  \"profile\": \"bypassing\",\n  \"contactNumber\": \"parsing\",\n  \"email\": \"Esta_Kling96@gmail.com\",\n  \"cards\": \"654a10ef5601260431f6312c\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -1485,7 +1485,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8542\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T03:31:00.985Z\",\n    \"updatedAt\": \"2024-10-17T04:40:07.322Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63131\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-21T21:35:33.065Z\",\n    \"updatedAt\": \"2024-01-20T02:07:35.092Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1564,7 +1564,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8543\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-12T03:31:00.985Z\",\n    \"updatedAt\": \"2024-10-17T04:40:07.322Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63132\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-08-21T21:35:33.065Z\",\n    \"updatedAt\": \"2024-01-20T02:07:35.092Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -1939,7 +1939,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8550\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f6313f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2006,7 +2006,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8556\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63145\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2042,7 +2042,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2073,7 +2073,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b854e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f6313d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2140,7 +2140,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Elyssa51\",\n        \"email\": \"Harold.Bauch@gmail.com\",\n        \"name\": \"Curtis Wuckert\",\n        \"mobileNo\": \"(241) 363-8274\",\n        \"userType\": 1,\n        \"id\": \"6548dc17f300e1706f3b854f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n        \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"username\": \"Earnest.Lang\",\n        \"email\": \"Cydney.Glover20@gmail.com\",\n        \"name\": \"Dr. Tina Okuneva\",\n        \"mobileNo\": \"(566) 211-1832\",\n        \"userType\": 1,\n        \"id\": \"654a10ef5601260431f6313e\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n        \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2243,7 +2243,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Elyssa51\",\n      \"password\": \"K8aIcHj8LCJKLta\",\n      \"email\": \"Harold.Bauch@gmail.com\",\n      \"name\": \"Curtis Wuckert\",\n      \"mobileNo\": \"(241) 363-8274\",\n      \"userType\": 1\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"username\": \"Earnest.Lang\",\n      \"password\": \"RER1E_GspNMVIfD\",\n      \"email\": \"Cydney.Glover20@gmail.com\",\n      \"name\": \"Dr. Tina Okuneva\",\n      \"mobileNo\": \"(566) 211-1832\",\n      \"userType\": 1\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2383,7 +2383,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2420,7 +2420,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8551\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63140\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2499,7 +2499,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8552\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63141\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2748,7 +2748,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -2779,7 +2779,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8555\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-05T23:49:38.103Z\",\n    \"updatedAt\": \"2024-02-13T06:59:09.045Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63144\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-04T04:49:05.160Z\",\n    \"updatedAt\": \"2024-05-22T16:54:42.610Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2926,7 +2926,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"id\": \"6548dc17f300e1706f3b8557\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-29T01:23:17.809Z\",\n    \"updatedAt\": \"2024-02-17T05:27:26.317Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"id\": \"654a10ef5601260431f63146\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-10T00:46:25.372Z\",\n    \"updatedAt\": \"2024-11-04T19:07:37.473Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -2962,7 +2962,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\"\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\"\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -2988,7 +2988,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"id\": \"6548dc17f300e1706f3b8557\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-29T01:23:17.809Z\",\n    \"updatedAt\": \"2024-02-17T05:27:26.317Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"id\": \"654a10ef5601260431f63146\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-11-10T00:46:25.372Z\",\n    \"updatedAt\": \"2024-11-04T19:07:37.473Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3340,7 +3340,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Genevieve O'Reilly\",\n    \"code\": \"SDD\",\n    \"weight\": 245,\n    \"id\": \"6548dc17f300e1706f3b8564\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-24T21:05:18.358Z\",\n    \"updatedAt\": \"2024-10-03T08:25:53.413Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Pablo Lebsack Jr.\",\n    \"code\": \"South\",\n    \"weight\": 105,\n    \"id\": \"654a10ef5601260431f63153\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-19T00:23:02.206Z\",\n    \"updatedAt\": \"2024-08-13T18:45:04.501Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3376,7 +3376,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Genevieve O'Reilly\",\n  \"code\": \"SDD\",\n  \"weight\": 245\n}"
+                  "raw": "{\n  \"name\": \"Pablo Lebsack Jr.\",\n  \"code\": \"South\",\n  \"weight\": 105\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3407,7 +3407,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Genevieve O'Reilly\",\n    \"code\": \"SDD\",\n    \"weight\": 245,\n    \"id\": \"6548dc17f300e1706f3b855e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-24T21:05:18.358Z\",\n    \"updatedAt\": \"2024-10-03T08:25:53.413Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Pablo Lebsack Jr.\",\n    \"code\": \"South\",\n    \"weight\": 105,\n    \"id\": \"654a10ef5601260431f6314d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-19T00:23:02.206Z\",\n    \"updatedAt\": \"2024-08-13T18:45:04.501Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3443,7 +3443,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Genevieve O'Reilly\",\n      \"code\": \"SDD\",\n      \"weight\": 245\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Pablo Lebsack Jr.\",\n      \"code\": \"South\",\n      \"weight\": 105\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -3541,7 +3541,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Genevieve O'Reilly\",\n        \"code\": \"SDD\",\n        \"weight\": 245,\n        \"id\": \"6548dc17f300e1706f3b8560\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-04-24T21:05:18.358Z\",\n        \"updatedAt\": \"2024-10-03T08:25:53.413Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Pablo Lebsack Jr.\",\n        \"code\": \"South\",\n        \"weight\": 105,\n        \"id\": \"654a10ef5601260431f6314f\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-09-19T00:23:02.206Z\",\n        \"updatedAt\": \"2024-08-13T18:45:04.501Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -3967,7 +3967,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Genevieve O'Reilly\",\n    \"code\": \"SDD\",\n    \"weight\": 245,\n    \"id\": \"6548dc17f300e1706f3b8562\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-24T21:05:18.358Z\",\n    \"updatedAt\": \"2024-10-03T08:25:53.413Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Pablo Lebsack Jr.\",\n    \"code\": \"South\",\n    \"weight\": 105,\n    \"id\": \"654a10ef5601260431f63151\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-19T00:23:02.206Z\",\n    \"updatedAt\": \"2024-08-13T18:45:04.501Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4009,7 +4009,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Genevieve O'Reilly\",\n  \"code\": \"SDD\",\n  \"weight\": 245\n}"
+                  "raw": "{\n  \"name\": \"Pablo Lebsack Jr.\",\n  \"code\": \"South\",\n  \"weight\": 105\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4046,7 +4046,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Genevieve O'Reilly\",\n    \"code\": \"SDD\",\n    \"weight\": 245,\n    \"id\": \"6548dc17f300e1706f3b8563\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-04-24T21:05:18.358Z\",\n    \"updatedAt\": \"2024-10-03T08:25:53.413Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Pablo Lebsack Jr.\",\n    \"code\": \"South\",\n    \"weight\": 105,\n    \"id\": \"654a10ef5601260431f63152\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-19T00:23:02.206Z\",\n    \"updatedAt\": \"2024-08-13T18:45:04.501Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4208,7 +4208,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Account\",\n    \"method\": \"Prairie\",\n    \"uri\": \"Account\",\n    \"id\": \"6548dc17f300e1706f3b856c\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-18T16:12:54.356Z\",\n    \"updatedAt\": \"2024-09-10T07:13:07.296Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Sports\",\n    \"method\": \"Branding\",\n    \"uri\": \"salmon\",\n    \"id\": \"654a10ef5601260431f6315b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-17T01:15:23.722Z\",\n    \"updatedAt\": \"2024-10-19T03:53:40.854Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4244,7 +4244,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"Account\",\n  \"method\": \"Prairie\",\n  \"uri\": \"Account\"\n}"
+                  "raw": "{\n  \"route_name\": \"Sports\",\n  \"method\": \"Branding\",\n  \"uri\": \"salmon\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4275,7 +4275,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Account\",\n    \"method\": \"Prairie\",\n    \"uri\": \"Account\",\n    \"id\": \"6548dc17f300e1706f3b8566\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-18T16:12:54.356Z\",\n    \"updatedAt\": \"2024-09-10T07:13:07.296Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Sports\",\n    \"method\": \"Branding\",\n    \"uri\": \"salmon\",\n    \"id\": \"654a10ef5601260431f63155\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-17T01:15:23.722Z\",\n    \"updatedAt\": \"2024-10-19T03:53:40.854Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4311,7 +4311,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"Account\",\n      \"method\": \"Prairie\",\n      \"uri\": \"Account\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"route_name\": \"Sports\",\n      \"method\": \"Branding\",\n      \"uri\": \"salmon\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4409,7 +4409,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"Account\",\n        \"method\": \"Prairie\",\n        \"uri\": \"Account\",\n        \"id\": \"6548dc17f300e1706f3b8568\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-02-18T16:12:54.356Z\",\n        \"updatedAt\": \"2024-09-10T07:13:07.296Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"route_name\": \"Sports\",\n        \"method\": \"Branding\",\n        \"uri\": \"salmon\",\n        \"id\": \"654a10ef5601260431f63157\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-07-17T01:15:23.722Z\",\n        \"updatedAt\": \"2024-10-19T03:53:40.854Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4835,7 +4835,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Account\",\n    \"method\": \"Prairie\",\n    \"uri\": \"Account\",\n    \"id\": \"6548dc17f300e1706f3b856a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-18T16:12:54.356Z\",\n    \"updatedAt\": \"2024-09-10T07:13:07.296Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Sports\",\n    \"method\": \"Branding\",\n    \"uri\": \"salmon\",\n    \"id\": \"654a10ef5601260431f63159\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-17T01:15:23.722Z\",\n    \"updatedAt\": \"2024-10-19T03:53:40.854Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -4877,7 +4877,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"route_name\": \"Account\",\n  \"method\": \"Prairie\",\n  \"uri\": \"Account\"\n}"
+                  "raw": "{\n  \"route_name\": \"Sports\",\n  \"method\": \"Branding\",\n  \"uri\": \"salmon\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -4914,7 +4914,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Account\",\n    \"method\": \"Prairie\",\n    \"uri\": \"Account\",\n    \"id\": \"6548dc17f300e1706f3b856b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-18T16:12:54.356Z\",\n    \"updatedAt\": \"2024-09-10T07:13:07.296Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"route_name\": \"Sports\",\n    \"method\": \"Branding\",\n    \"uri\": \"salmon\",\n    \"id\": \"654a10ef5601260431f6315a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-17T01:15:23.722Z\",\n    \"updatedAt\": \"2024-10-19T03:53:40.854Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5076,7 +5076,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6548dc17f300e1706f3b856d\",\n    \"roleId\": \"6548dc17f300e1706f3b856e\",\n    \"id\": \"6548dc17f300e1706f3b8576\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-09T10:38:18.566Z\",\n    \"updatedAt\": \"2024-07-03T04:58:07.772Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"654a10ef5601260431f6315c\",\n    \"roleId\": \"654a10ef5601260431f6315d\",\n    \"id\": \"654a10ef5601260431f63165\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-10T15:32:31.872Z\",\n    \"updatedAt\": \"2024-03-04T22:43:09.970Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5112,7 +5112,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"6548dc17f300e1706f3b856d\",\n  \"roleId\": \"6548dc17f300e1706f3b856e\"\n}"
+                  "raw": "{\n  \"routeId\": \"654a10ef5601260431f6315c\",\n  \"roleId\": \"654a10ef5601260431f6315d\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5143,7 +5143,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6548dc17f300e1706f3b856d\",\n    \"roleId\": \"6548dc17f300e1706f3b856e\",\n    \"id\": \"6548dc17f300e1706f3b8570\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-09T10:38:18.566Z\",\n    \"updatedAt\": \"2024-07-03T04:58:07.772Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"654a10ef5601260431f6315c\",\n    \"roleId\": \"654a10ef5601260431f6315d\",\n    \"id\": \"654a10ef5601260431f6315f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-10T15:32:31.872Z\",\n    \"updatedAt\": \"2024-03-04T22:43:09.970Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5179,7 +5179,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"6548dc17f300e1706f3b856d\",\n      \"roleId\": \"6548dc17f300e1706f3b856e\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"routeId\": \"654a10ef5601260431f6315c\",\n      \"roleId\": \"654a10ef5601260431f6315d\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5277,7 +5277,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"6548dc17f300e1706f3b856d\",\n        \"roleId\": \"6548dc17f300e1706f3b856e\",\n        \"id\": \"6548dc17f300e1706f3b8572\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2023-12-09T10:38:18.566Z\",\n        \"updatedAt\": \"2024-07-03T04:58:07.772Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"routeId\": \"654a10ef5601260431f6315c\",\n        \"roleId\": \"654a10ef5601260431f6315d\",\n        \"id\": \"654a10ef5601260431f63161\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-01-10T15:32:31.872Z\",\n        \"updatedAt\": \"2024-03-04T22:43:09.970Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5703,7 +5703,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6548dc17f300e1706f3b856d\",\n    \"roleId\": \"6548dc17f300e1706f3b856e\",\n    \"id\": \"6548dc17f300e1706f3b8574\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-09T10:38:18.566Z\",\n    \"updatedAt\": \"2024-07-03T04:58:07.772Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"654a10ef5601260431f6315c\",\n    \"roleId\": \"654a10ef5601260431f6315d\",\n    \"id\": \"654a10ef5601260431f63163\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-10T15:32:31.872Z\",\n    \"updatedAt\": \"2024-03-04T22:43:09.970Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5745,7 +5745,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"routeId\": \"6548dc17f300e1706f3b856d\",\n  \"roleId\": \"6548dc17f300e1706f3b856e\"\n}"
+                  "raw": "{\n  \"routeId\": \"654a10ef5601260431f6315c\",\n  \"roleId\": \"654a10ef5601260431f6315d\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -5782,7 +5782,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"6548dc17f300e1706f3b856d\",\n    \"roleId\": \"6548dc17f300e1706f3b856e\",\n    \"id\": \"6548dc17f300e1706f3b8575\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-09T10:38:18.566Z\",\n    \"updatedAt\": \"2024-07-03T04:58:07.772Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"routeId\": \"654a10ef5601260431f6315c\",\n    \"roleId\": \"654a10ef5601260431f6315d\",\n    \"id\": \"654a10ef5601260431f63164\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-01-10T15:32:31.872Z\",\n    \"updatedAt\": \"2024-03-04T22:43:09.970Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5944,7 +5944,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6548dc17f300e1706f3b8577\",\n    \"roleId\": \"6548dc17f300e1706f3b8578\",\n    \"id\": \"6548dc17f300e1706f3b8580\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-04T16:51:26.502Z\",\n    \"updatedAt\": \"2023-11-25T02:53:54.350Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"654a10ef5601260431f63166\",\n    \"roleId\": \"654a10ef5601260431f63167\",\n    \"id\": \"654a10ef5601260431f6316f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-25T01:10:57.740Z\",\n    \"updatedAt\": \"2024-05-11T14:48:49.055Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -5980,7 +5980,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"6548dc17f300e1706f3b8577\",\n  \"roleId\": \"6548dc17f300e1706f3b8578\"\n}"
+                  "raw": "{\n  \"userId\": \"654a10ef5601260431f63166\",\n  \"roleId\": \"654a10ef5601260431f63167\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6011,7 +6011,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6548dc17f300e1706f3b8577\",\n    \"roleId\": \"6548dc17f300e1706f3b8578\",\n    \"id\": \"6548dc17f300e1706f3b857a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-04T16:51:26.502Z\",\n    \"updatedAt\": \"2023-11-25T02:53:54.350Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"654a10ef5601260431f63166\",\n    \"roleId\": \"654a10ef5601260431f63167\",\n    \"id\": \"654a10ef5601260431f63169\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-25T01:10:57.740Z\",\n    \"updatedAt\": \"2024-05-11T14:48:49.055Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6047,7 +6047,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"6548dc17f300e1706f3b8577\",\n      \"roleId\": \"6548dc17f300e1706f3b8578\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"userId\": \"654a10ef5601260431f63166\",\n      \"roleId\": \"654a10ef5601260431f63167\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6145,7 +6145,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"6548dc17f300e1706f3b8577\",\n        \"roleId\": \"6548dc17f300e1706f3b8578\",\n        \"id\": \"6548dc17f300e1706f3b857c\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-04T16:51:26.502Z\",\n        \"updatedAt\": \"2023-11-25T02:53:54.350Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"userId\": \"654a10ef5601260431f63166\",\n        \"roleId\": \"654a10ef5601260431f63167\",\n        \"id\": \"654a10ef5601260431f6316b\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-09-25T01:10:57.740Z\",\n        \"updatedAt\": \"2024-05-11T14:48:49.055Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6571,7 +6571,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6548dc17f300e1706f3b8577\",\n    \"roleId\": \"6548dc17f300e1706f3b8578\",\n    \"id\": \"6548dc17f300e1706f3b857e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-04T16:51:26.502Z\",\n    \"updatedAt\": \"2023-11-25T02:53:54.350Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"654a10ef5601260431f63166\",\n    \"roleId\": \"654a10ef5601260431f63167\",\n    \"id\": \"654a10ef5601260431f6316d\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-25T01:10:57.740Z\",\n    \"updatedAt\": \"2024-05-11T14:48:49.055Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6613,7 +6613,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"userId\": \"6548dc17f300e1706f3b8577\",\n  \"roleId\": \"6548dc17f300e1706f3b8578\"\n}"
+                  "raw": "{\n  \"userId\": \"654a10ef5601260431f63166\",\n  \"roleId\": \"654a10ef5601260431f63167\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6650,7 +6650,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"6548dc17f300e1706f3b8577\",\n    \"roleId\": \"6548dc17f300e1706f3b8578\",\n    \"id\": \"6548dc17f300e1706f3b857f\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-04T16:51:26.502Z\",\n    \"updatedAt\": \"2023-11-25T02:53:54.350Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"userId\": \"654a10ef5601260431f63166\",\n    \"roleId\": \"654a10ef5601260431f63167\",\n    \"id\": \"654a10ef5601260431f6316e\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-09-25T01:10:57.740Z\",\n    \"updatedAt\": \"2024-05-11T14:48:49.055Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6822,7 +6822,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8539\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-07T06:48:36.314Z\",\n    \"updatedAt\": \"2023-12-20T04:05:58.099Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63127\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T05:22:24.926Z\",\n    \"updatedAt\": \"2023-12-13T09:24:14.012Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6860,7 +6860,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Marjorie Wunsch\",\n  \"string\": \"Agent\",\n  \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n  \"userID\": \"Brazilian\",\n  \"cardType\": \"Bedfordshire\",\n  \"status\": \"Land\",\n  \"isDefault\": false\n}"
+                  "raw": "{\n  \"name\": \"Melba Waters\",\n  \"startdate\": \"2024-03-27T23:56:12.199Z\",\n  \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n  \"cvv\": \"magenta\",\n  \"userID\": \"grow\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -6893,7 +6893,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b8537\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-07T06:48:36.314Z\",\n    \"updatedAt\": \"2023-12-20T04:05:58.099Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63125\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T05:22:24.926Z\",\n    \"updatedAt\": \"2023-12-13T09:24:14.012Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -6964,7 +6964,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Marjorie Wunsch\",\n        \"string\": \"Agent\",\n        \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n        \"userID\": \"Brazilian\",\n        \"cardType\": \"Bedfordshire\",\n        \"status\": \"Land\",\n        \"isDefault\": false,\n        \"id\": \"6548dc17f300e1706f3b8538\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-07-07T06:48:36.314Z\",\n        \"updatedAt\": \"2023-12-20T04:05:58.099Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"name\": \"Melba Waters\",\n        \"startdate\": \"2024-03-27T23:56:12.199Z\",\n        \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n        \"cvv\": \"magenta\",\n        \"userID\": \"grow\",\n        \"id\": \"654a10ef5601260431f63126\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-06-30T05:22:24.926Z\",\n        \"updatedAt\": \"2023-12-13T09:24:14.012Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7073,7 +7073,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Marjorie Wunsch\",\n      \"string\": \"Agent\",\n      \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n      \"userID\": \"Brazilian\",\n      \"cardType\": \"Bedfordshire\",\n      \"status\": \"Land\",\n      \"isDefault\": false\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"name\": \"Melba Waters\",\n      \"startdate\": \"2024-03-27T23:56:12.199Z\",\n      \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n      \"cvv\": \"magenta\",\n      \"userID\": \"grow\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7221,7 +7221,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"name\": \"Marjorie Wunsch\",\n  \"string\": \"Agent\",\n  \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n  \"userID\": \"Brazilian\",\n  \"cardType\": \"Bedfordshire\",\n  \"status\": \"Land\",\n  \"isDefault\": false\n}"
+                  "raw": "{\n  \"name\": \"Melba Waters\",\n  \"startdate\": \"2024-03-27T23:56:12.199Z\",\n  \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n  \"cvv\": \"magenta\",\n  \"userID\": \"grow\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7260,7 +7260,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b853a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-07T06:48:36.314Z\",\n    \"updatedAt\": \"2023-12-20T04:05:58.099Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63128\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T05:22:24.926Z\",\n    \"updatedAt\": \"2023-12-13T09:24:14.012Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7343,7 +7343,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Marjorie Wunsch\",\n    \"string\": \"Agent\",\n    \"expirationDate\": \"2024-04-14T04:33:56.761Z\",\n    \"userID\": \"Brazilian\",\n    \"cardType\": \"Bedfordshire\",\n    \"status\": \"Land\",\n    \"isDefault\": false,\n    \"id\": \"6548dc17f300e1706f3b853b\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-07T06:48:36.314Z\",\n    \"updatedAt\": \"2023-12-20T04:05:58.099Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"name\": \"Melba Waters\",\n    \"startdate\": \"2024-03-27T23:56:12.199Z\",\n    \"expirationdate\": \"2024-08-27T11:19:48.509Z\",\n    \"cvv\": \"magenta\",\n    \"userID\": \"grow\",\n    \"id\": \"654a10ef5601260431f63129\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-06-30T05:22:24.926Z\",\n    \"updatedAt\": \"2023-12-13T09:24:14.012Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7867,7 +7867,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8548\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-13T21:42:23.666Z\",\n    \"updatedAt\": \"2024-03-05T03:59:14.602Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63137\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-31T08:20:30.326Z\",\n    \"updatedAt\": \"2024-03-17T05:32:07.989Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -7905,7 +7905,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"firstName\": \"Ira Lesch\",\n  \"lastName\": \"Kristine Okuneva\",\n  \"name\": \"Johnnie Paucek\",\n  \"profile\": \"maximize\",\n  \"contactNumber\": \"Regional\",\n  \"email\": \"Prince_Pacocha@hotmail.com\"\n}"
+                  "raw": "{\n  \"firstName\": \"Mike Stoltenberg\",\n  \"lastName\": \"Edmond Schamberger\",\n  \"name\": \"Santos Metz\",\n  \"profile\": \"bypassing\",\n  \"contactNumber\": \"parsing\",\n  \"email\": \"Esta_Kling96@gmail.com\",\n  \"cards\": \"654a10ef5601260431f6312c\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -7938,7 +7938,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8546\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-13T21:42:23.666Z\",\n    \"updatedAt\": \"2024-03-05T03:59:14.602Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63135\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-31T08:20:30.326Z\",\n    \"updatedAt\": \"2024-03-17T05:32:07.989Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8009,7 +8009,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"firstName\": \"Ira Lesch\",\n        \"lastName\": \"Kristine Okuneva\",\n        \"name\": \"Johnnie Paucek\",\n        \"profile\": \"maximize\",\n        \"contactNumber\": \"Regional\",\n        \"email\": \"Prince_Pacocha@hotmail.com\",\n        \"id\": \"6548dc17f300e1706f3b8547\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-03-13T21:42:23.666Z\",\n        \"updatedAt\": \"2024-03-05T03:59:14.602Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"data\": [\n      {\n        \"firstName\": \"Mike Stoltenberg\",\n        \"lastName\": \"Edmond Schamberger\",\n        \"name\": \"Santos Metz\",\n        \"profile\": \"bypassing\",\n        \"contactNumber\": \"parsing\",\n        \"email\": \"Esta_Kling96@gmail.com\",\n        \"cards\": \"654a10ef5601260431f6312c\",\n        \"id\": \"654a10ef5601260431f63136\",\n        \"isDeleted\": false,\n        \"isActive\": true,\n        \"createdAt\": \"2024-07-31T08:20:30.326Z\",\n        \"updatedAt\": \"2024-03-17T05:32:07.989Z\"\n      }\n    ],\n    \"paginator\": {\n      \"itemCount\": 1,\n      \"offset\": 0,\n      \"perPage\": 10,\n      \"pageCount\": 1,\n      \"currentPage\": 1,\n      \"slNo\": 1,\n      \"hasPrevPage\": false,\n      \"hasNextPage\": false,\n      \"prev\": null,\n      \"next\": null\n    }\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8118,7 +8118,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"data\": [\n    {\n      \"firstName\": \"Ira Lesch\",\n      \"lastName\": \"Kristine Okuneva\",\n      \"name\": \"Johnnie Paucek\",\n      \"profile\": \"maximize\",\n      \"contactNumber\": \"Regional\",\n      \"email\": \"Prince_Pacocha@hotmail.com\"\n    }\n  ]\n}"
+                  "raw": "{\n  \"data\": [\n    {\n      \"firstName\": \"Mike Stoltenberg\",\n      \"lastName\": \"Edmond Schamberger\",\n      \"name\": \"Santos Metz\",\n      \"profile\": \"bypassing\",\n      \"contactNumber\": \"parsing\",\n      \"email\": \"Esta_Kling96@gmail.com\",\n      \"cards\": \"654a10ef5601260431f6312c\"\n    }\n  ]\n}"
                 },
                 "description": "",
                 "auth": {
@@ -8266,7 +8266,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"firstName\": \"Ira Lesch\",\n  \"lastName\": \"Kristine Okuneva\",\n  \"name\": \"Johnnie Paucek\",\n  \"profile\": \"maximize\",\n  \"contactNumber\": \"Regional\",\n  \"email\": \"Prince_Pacocha@hotmail.com\"\n}"
+                  "raw": "{\n  \"firstName\": \"Mike Stoltenberg\",\n  \"lastName\": \"Edmond Schamberger\",\n  \"name\": \"Santos Metz\",\n  \"profile\": \"bypassing\",\n  \"contactNumber\": \"parsing\",\n  \"email\": \"Esta_Kling96@gmail.com\",\n  \"cards\": \"654a10ef5601260431f6312c\"\n}"
                 },
                 "description": "",
                 "auth": {
@@ -8305,7 +8305,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b8549\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-13T21:42:23.666Z\",\n    \"updatedAt\": \"2024-03-05T03:59:14.602Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63138\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-31T08:20:30.326Z\",\n    \"updatedAt\": \"2024-03-17T05:32:07.989Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8388,7 +8388,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Ira Lesch\",\n    \"lastName\": \"Kristine Okuneva\",\n    \"name\": \"Johnnie Paucek\",\n    \"profile\": \"maximize\",\n    \"contactNumber\": \"Regional\",\n    \"email\": \"Prince_Pacocha@hotmail.com\",\n    \"id\": \"6548dc17f300e1706f3b854a\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-03-13T21:42:23.666Z\",\n    \"updatedAt\": \"2024-03-05T03:59:14.602Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"firstName\": \"Mike Stoltenberg\",\n    \"lastName\": \"Edmond Schamberger\",\n    \"name\": \"Santos Metz\",\n    \"profile\": \"bypassing\",\n    \"contactNumber\": \"parsing\",\n    \"email\": \"Esta_Kling96@gmail.com\",\n    \"cards\": \"654a10ef5601260431f6312c\",\n    \"id\": \"654a10ef5601260431f63139\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-07-31T08:20:30.326Z\",\n    \"updatedAt\": \"2024-03-17T05:32:07.989Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8773,7 +8773,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8559\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-04T12:43:19.842Z\",\n    \"updatedAt\": \"2024-05-19T18:38:43.787Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63148\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-23T13:44:39.645Z\",\n    \"updatedAt\": \"2024-04-27T11:40:04.337Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8811,7 +8811,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\",\n  \"userType\": 1\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\",\n  \"userType\": 1\n}"
                 },
                 "description": "",
                 "auth": {
@@ -8844,7 +8844,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"userType\": 1,\n    \"id\": \"6548dc17f300e1706f3b8558\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-04T12:43:19.842Z\",\n    \"updatedAt\": \"2024-05-19T18:38:43.787Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"userType\": 1,\n    \"id\": \"654a10ef5601260431f63147\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-10-23T13:44:39.645Z\",\n    \"updatedAt\": \"2024-04-27T11:40:04.337Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8912,7 +8912,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"id\": \"6548dc17f300e1706f3b855a\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-14T05:31:33.519Z\",\n    \"updatedAt\": \"2024-07-10T05:25:39.501Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Login Successful\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"id\": \"654a10ef5601260431f63149\",\n    \"loginRetryLimit\": 0,\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMWRlZDVjMGFjMjAxMmFjMDI4ODkxZiIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2MjkzNTEyNzAsImV4cCI6MTYyOTk1MTI3MH0.BJ-WKjNYeFDQ4pn8kfli5gwn6GLz_c3voFht20Agj9k\",\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-29T17:18:04.162Z\",\n    \"updatedAt\": \"2024-09-29T07:32:29.114Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",
@@ -8948,7 +8948,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\n  \"username\": \"Elyssa51\",\n  \"password\": \"K8aIcHj8LCJKLta\",\n  \"email\": \"Harold.Bauch@gmail.com\",\n  \"name\": \"Curtis Wuckert\",\n  \"mobileNo\": \"(241) 363-8274\"\n}"
+                  "raw": "{\n  \"username\": \"Earnest.Lang\",\n  \"password\": \"RER1E_GspNMVIfD\",\n  \"email\": \"Cydney.Glover20@gmail.com\",\n  \"name\": \"Dr. Tina Okuneva\",\n  \"mobileNo\": \"(566) 211-1832\"\n}"
                 },
                 "description": "",
                 "auth": {}
@@ -8974,7 +8974,7 @@
                   "status": "OK",
                   "code": 200,
                   "_postman_previewlanguage": "json",
-                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Elyssa51\",\n    \"email\": \"Harold.Bauch@gmail.com\",\n    \"name\": \"Curtis Wuckert\",\n    \"mobileNo\": \"(241) 363-8274\",\n    \"id\": \"6548dc17f300e1706f3b855a\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2023-12-14T05:31:33.519Z\",\n    \"updatedAt\": \"2024-07-10T05:25:39.501Z\"\n  }\n}",
+                  "body": "{\n  \"status\": \"SUCCESS\",\n  \"message\": \"Your request is successfully executed\",\n  \"data\": {\n    \"username\": \"Earnest.Lang\",\n    \"email\": \"Cydney.Glover20@gmail.com\",\n    \"name\": \"Dr. Tina Okuneva\",\n    \"mobileNo\": \"(566) 211-1832\",\n    \"id\": \"654a10ef5601260431f63149\",\n    \"loginRetryLimit\": 0,\n    \"isDeleted\": false,\n    \"isActive\": true,\n    \"createdAt\": \"2024-02-29T17:18:04.162Z\",\n    \"updatedAt\": \"2024-09-29T07:32:29.114Z\"\n  }\n}",
                   "header": [
                     {
                       "key": "Content-Type",

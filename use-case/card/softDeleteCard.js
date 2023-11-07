@@ -2,6 +2,8 @@
  *softDeleteCard.js
  */
 
+const makeGetDependencyCount = require('./deleteDependent').getDependencyCount;
+const makeSoftDeleteWithDependency = require('./deleteDependent').softDeleteWithDependency;
 const response = require('../../utils/response');
 
 /**
@@ -11,11 +13,25 @@ const response = require('../../utils/response');
  * @param {Object} res : The res object represents HTTP response..
  * @return {Object} : deactivated Card. {status, message, data}
  */
-const softDeleteCard = ({ cardDb }) => async (params,req,res) => {
-  let updatedCard = await cardDb.updateOne(params.query, params.dataToUpdate);
-  if (!updatedCard){
-    return response.recordNotFound();   
+const softDeleteCard = ({
+  cardDb,CustomerDb
+}) => async (params,req,res) => {
+  let {
+    query, dataToUpdate,isWarning 
+  } = params;
+  let updatedCard = {};
+  if (isWarning) {
+    const getDependencyCount = makeGetDependencyCount({
+      cardDb,
+      CustomerDb
+    });
+    return await getDependencyCount(query);
+  } else {
+    const softDeleteWithDependency = makeSoftDeleteWithDependency({
+      cardDb,
+      CustomerDb
+    });
+    return await softDeleteWithDependency(query, dataToUpdate);
   }
-  return response.success({ data:updatedCard });
 };
 module.exports = softDeleteCard;

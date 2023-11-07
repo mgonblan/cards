@@ -1,4 +1,5 @@
 const cardDb = require('../../../../data-access/cardDb');
+const CustomerDb = require('../../../../data-access/CustomerDb');
 
 const cardSchema = require('../../../../validation/schema/card');
 
@@ -26,12 +27,24 @@ const updateCardUsecase = require('../../../../use-case/card/updateCard')({
   updateValidation 
 });
 const partialUpdateCardUsecase = require('../../../../use-case/card/partialUpdateCard')({ cardDb });
-const softDeleteCardUsecase = require('../../../../use-case/card/softDeleteCard')({ cardDb });
-const softDeleteManyCardUsecase = require('../../../../use-case/card/softDeleteManyCard')({ cardDb });
+const softDeleteCardUsecase = require('../../../../use-case/card/softDeleteCard')({
+  cardDb,
+  CustomerDb
+});
+const softDeleteManyCardUsecase = require('../../../../use-case/card/softDeleteManyCard')({
+  cardDb,
+  CustomerDb
+});
 const bulkInsertCardUsecase = require('../../../../use-case/card/bulkInsertCard')({ cardDb });
 const bulkUpdateCardUsecase = require('../../../../use-case/card/bulkUpdateCard')({ cardDb });
-const deleteCardUsecase = require('../../../../use-case/card/deleteCard')({ cardDb });
-const deleteManyCardUsecase = require('../../../../use-case/card/deleteManyCard')({ cardDb });
+const deleteCardUsecase = require('../../../../use-case/card/deleteCard')({
+  cardDb,
+  CustomerDb
+});
+const deleteManyCardUsecase = require('../../../../use-case/card/deleteManyCard')({
+  cardDb,
+  CustomerDb
+});
 
 const cardController = require('./card');
 

@@ -3,20 +3,37 @@
  *deleteCard.js
  */
  
+const makeGetDependencyCount = require('./deleteDependent').getDependencyCount;
+const makeDeleteWithDependency = require('./deleteDependent').deleteWithDependency;
 const response = require('../../utils/response');
+    
 /**
  * @description : delete record from database.
- * @param {Object} query : query.
+ * @param {Object} params : request body including query.
  * @param {Object} req : The req object represents the HTTP request.
  * @param {Object} res : The res object represents HTTP response.
  * @return {Object} : deleted Card. {status, message, data}
  */
-const deleteCard = ({ cardDb }) => async (query,req,res) => {
-  let deletedCard = await cardDb.deleteOne(query);
-  if (!deletedCard){
-    return response.recordNotFound({});
+const deleteCard = ({
+  cardDb,CustomerDb
+}) => async (params,req,res) => {
+  let {
+    query,isWarning 
+  } = params;
+  let deletedCard = {};
+  if (isWarning) {
+    const getDependencyCount = makeGetDependencyCount({
+      cardDb,
+      CustomerDb
+    });
+    return await getDependencyCount(query);
+  } else {
+    const deleteWithDependency = makeDeleteWithDependency({
+      cardDb,
+      CustomerDb
+    });
+    return await deleteWithDependency(query);
   }
-  return response.success({ data: deletedCard });
 };
 
 module.exports = deleteCard;

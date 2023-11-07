@@ -5,10 +5,6 @@ const getSelectObject = require('../../../utils/getSelectObject');
 const addCard = (addCardUsecase) => async (req,res) => {
   try {
     let dataToCreate = { ...req.body || {} };
-    dataToCreate = {
-      ...{ 'userID':(req && req.user && req.user.id ? req.user.id.toString() : null) },
-      ...dataToCreate
-    };
     dataToCreate.addedBy = req.user.id;
     let result = await addCardUsecase(dataToCreate,req,res);
     return responseHandler(res,result);
@@ -22,7 +18,6 @@ const bulkInsertCard = (bulkInsertCardUsecase)=> async (req,res) => {
     let dataToCreate = [...req.body.data];
     for (let i = 0;i < dataToCreate.length;i++){
       dataToCreate[i] = {
-        ...{ 'userID':(req && req.user && req.user.id ? req.user.id.toString() : null) },
         ...dataToCreate[i],
         addedBy:req.user.id,
       };
@@ -129,7 +124,7 @@ const partialUpdateCard = (partialUpdateCardUsecase) => async (req,res) => {
   }
 };
 
-const softDeleteCard = (softDeleteCardUsecase) => async (req,res)=>{
+const softDeleteCard = (softDeleteCardUsecase) => async (req,res) => {
   try {
     if (!req.params.id){
       return responseHandler(res,response.badRequest({ message : 'Insufficient request parameters! id is required.' }));
@@ -141,7 +136,8 @@ const softDeleteCard = (softDeleteCardUsecase) => async (req,res)=>{
     };
     let result = await softDeleteCardUsecase({
       query,
-      dataToUpdate
+      dataToUpdate,
+      isWarning:req.body.isWarning || false
     },req,res);
     return responseHandler(res,result);
   } catch (error){
@@ -155,7 +151,10 @@ const deleteCard = (deleteCardUsecase) => async (req,res) => {
       return responseHandler(res,response.badRequest({ message : 'Insufficient request parameters! id is required.' }));
     }
     let query = { _id: req.params.id };
-    let result = await deleteCardUsecase(query,req,res);
+    let result = await deleteCardUsecase({
+      query,
+      isWarning:req.body.isWarning || false
+    },req,res);
     return responseHandler(res,result);
   } catch (error){
     return responseHandler(res,response.internalServerError({ message:error.message }));
@@ -169,7 +168,10 @@ const deleteManyCard = (deleteManyCardUsecase) => async (req,res) => {
     }
     let ids = req.body.ids;
     let query = { _id : { $in:ids } };
-    let result = await deleteManyCardUsecase(query,req,res);
+    let result = await deleteManyCardUsecase({
+      query,
+      isWarning:req.body.isWarning || false
+    },req,res);
     return responseHandler(res,result);
   } catch (error){
     return responseHandler(res,response.internalServerError({ message:error.message }));
@@ -179,17 +181,18 @@ const deleteManyCard = (deleteManyCardUsecase) => async (req,res) => {
 const softDeleteManyCard = (softDeleteManyCardUsecase) => async (req,res) => {
   try {
     if (!req.body || !req.body.ids){
-      return responseHandler(res,response.badRequest({ message : 'Insufficient request parameters! ids field is required.' }));
+      return responseHandler(res,response.badRequest({ message : 'Insufficient request parameters! id is required.' }));
     }
     let ids = req.body.ids;
     let query = { _id : { $in:ids } };
     const dataToUpdate = {
       isDeleted: true,
-      updatedBy: req.user.id
+      updatedBy: req.user.id,
     };
     let result = await softDeleteManyCardUsecase({
       query,
-      dataToUpdate
+      dataToUpdate,
+      isWarning:req.body.isWarning || false
     },req,res);
     return responseHandler(res,result);
   } catch (error){

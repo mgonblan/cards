@@ -33,7 +33,11 @@ const schema = new Schema({
     type:Schema.Types.ObjectId,
     ref:'user'
   },
-  isDeleted: { type:Boolean }
+  isDeleted: { type:Boolean },
+  cards: {
+    ref:'card',
+    type:Schema.Types.ObjectId
+  }
 }
 ,{ 
   timestamps: { 

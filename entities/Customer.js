@@ -13,6 +13,7 @@ module.exports = (Customer) => {
     addedBy: Customer.addedBy,
     updatedBy: Customer.updatedBy,
     isDeleted: Customer.isDeleted,
+    cards: Customer.cards,
   };
 
   // remove undefined values
