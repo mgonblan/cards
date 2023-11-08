@@ -14,7 +14,7 @@ const response = require('../../utils/response');
  * @return {Object} : no of documents deleted. {status, message, data}
  */
 const deleteManyUser = ({
-  userDb,cardDb,CustomerDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
+  userDb,cardDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
 }) => async (params,req,res) => {
   let {
     query,isWarning 
@@ -24,7 +24,6 @@ const deleteManyUser = ({
     const getDependencyCount = makeGetDependencyCount({
       userDb,
       cardDb,
-      CustomerDb,
       userTokensDb,
       roleDb,
       projectRouteDb,
@@ -36,7 +35,6 @@ const deleteManyUser = ({
     const deleteWithDependency = makeDeleteWithDependency({
       userDb,
       cardDb,
-      CustomerDb,
       userTokensDb,
       roleDb,
       projectRouteDb,

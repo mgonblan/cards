@@ -1,7 +1,7 @@
 const response = require('../../utils/response');
 
 const getDependencyCount = ({
-  userDb,cardDb,CustomerDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
+  userDb,cardDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
 })=> async (filter) =>{
   let user = await userDb.findMany(filter);
   if (user.length){
@@ -10,10 +10,7 @@ const getDependencyCount = ({
     const cardFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
     const cardCnt =  await cardDb.count(cardFilter);
 
-    const CustomerFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
-    const CustomerCnt =  await CustomerDb.count(CustomerFilter);
-
-    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
+    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } },{ cards : { '$in' : userIds } }] };
     const userCnt =  await userDb.count(userFilter);
 
     const userTokensFilter = { '$or': [{ userId : { '$in' : userIds } },{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
@@ -32,7 +29,6 @@ const getDependencyCount = ({
     const userRoleCnt =  await userRoleDb.count(userRoleFilter);
     let result = {
       card :cardCnt ,
-      Customer :CustomerCnt ,
       user :userCnt + 1,
       userTokens :userTokensCnt ,
       role :roleCnt ,
@@ -53,7 +49,7 @@ const getDependencyCount = ({
 };
 
 const deleteWithDependency = ({
-  userDb,cardDb,CustomerDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
+  userDb,cardDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
 })=> async (filter) =>{
   let user = await userDb.findMany(filter);
   if (user.length){
@@ -62,10 +58,7 @@ const deleteWithDependency = ({
     const cardFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
     const cardCnt =  (await cardDb.deleteMany(cardFilter));
 
-    const CustomerFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
-    const CustomerCnt =  (await CustomerDb.deleteMany(CustomerFilter));
-
-    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
+    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } },{ cards : { '$in' : userIds } }] };
     const userCnt =  (await userDb.deleteMany(userFilter));
 
     const userTokensFilter = { '$or': [{ userId : { '$in' : userIds } },{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
@@ -85,7 +78,6 @@ const deleteWithDependency = ({
     let deleted = (await userDb.deleteMany(filter));
     let result = {
       card :cardCnt ,
-      Customer :CustomerCnt ,
       user :userCnt + deleted,
       userTokens :userTokensCnt ,
       role :roleCnt ,
@@ -106,7 +98,7 @@ const deleteWithDependency = ({
 };
 
 const softDeleteWithDependency = ({
-  userDb,cardDb,CustomerDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
+  userDb,cardDb,userTokensDb,roleDb,projectRouteDb,routeRoleDb,userRoleDb
 }) => async (filter,updateBody) =>{
   let user = await userDb.findMany(filter);
   if (user.length){
@@ -115,10 +107,7 @@ const softDeleteWithDependency = ({
     const cardFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
     const cardCnt =  (await cardDb.updateMany(cardFilter,updateBody));
 
-    const CustomerFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
-    const CustomerCnt =  (await CustomerDb.updateMany(CustomerFilter,updateBody));
-
-    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
+    const userFilter = { '$or': [{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } },{ cards : { '$in' : userIds } }] };
     const userCnt =  (await userDb.updateMany(userFilter,updateBody));
 
     const userTokensFilter = { '$or': [{ userId : { '$in' : userIds } },{ addedBy : { '$in' : userIds } },{ updatedBy : { '$in' : userIds } }] };
@@ -138,7 +127,6 @@ const softDeleteWithDependency = ({
     let updated = (await userDb.updateMany(filter,updateBody));
     let result = {
       card :cardCnt ,
-      Customer :CustomerCnt ,
       user :userCnt + updated,
       userTokens :userTokensCnt ,
       role :roleCnt ,

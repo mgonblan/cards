@@ -1,6 +1,5 @@
 const userDb = require('../../../../data-access/userDb');
 const cardDb = require('../../../../data-access/cardDb');
-const CustomerDb = require('../../../../data-access/CustomerDb');
 const userTokensDb = require('../../../../data-access/userTokensDb');
 const roleDb = require('../../../../data-access/roleDb');
 const projectRouteDb = require('../../../../data-access/projectRouteDb');

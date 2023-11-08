@@ -1,7 +1,3 @@
-/** 
- * smsService.js
- * @description :: exports function used in sending sms using gupshup provider
- */
 const axios = require('axios');
 const sendSMS = async (obj) => {
   console.log('SMS---', obj);
@@ -22,7 +18,7 @@ const sendSMS = async (obj) => {
   }
   const message = obj.message;
   const userid = '';
-  const password = escape('You Password');
+  const password = escape('yourPassword');
   const v = 1.1;
   const method = 'sendMessage';
   const msg_type = 'text';
@@ -49,5 +45,4 @@ const sendSMS = async (obj) => {
       });
   });
 };
-
 module.exports = { sendSMS };

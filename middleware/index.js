@@ -17,12 +17,10 @@ const checkRolePermission = require('./checkRolePermission')({
 
 const devicePassportStrategy = require('./devicePassportStrategy')({ userDb });
 const adminPassportStrategy = require('./adminPassportStrategy')({ userDb });
-const githubPassportStrategy = require('./githubPassportStrategy')({ userDb });
 
 module.exports = {
   auth,
   checkRolePermission,
   devicePassportStrategy,
   adminPassportStrategy,
-  githubPassportStrategy,
 };

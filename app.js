@@ -1,5 +1,4 @@
 const express = require('express');
-const session = require('express-session');
 const cors = require('cors');
 const path = require('path');
 const dotenv = require('dotenv');
@@ -14,7 +13,6 @@ const passport = require('passport');
 
 const { devicePassportStrategy } = require('./middleware');
 const { adminPassportStrategy } = require('./middleware');
-const { githubPassportStrategy } = require('./middleware');
 
 const app = express();
 const corsOptions = { origin: process.env.ALLOW_ORIGIN, };
@@ -29,18 +27,11 @@ const routes =  require('./routes');
 
 devicePassportStrategy(passport);
 adminPassportStrategy(passport);
-githubPassportStrategy(passport);
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(passport.initialize());
-app.use(session({
-  secret:'my-secret',
-  resave:true,
-  saveUninitialized:false
-}));
 app.use(routes);
 
 //swagger Documentation

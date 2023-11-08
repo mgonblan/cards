@@ -5,10 +5,6 @@ const getSelectObject = require('../../../utils/getSelectObject');
 const addCard = (addCardUsecase) => async (req,res) => {
   try {
     let dataToCreate = { ...req.body || {} };
-    dataToCreate = {
-      ...{ 'userID':(req && req.user && req.user.id ? req.user.id.toString() : null) },
-      ...dataToCreate
-    };
     dataToCreate.addedBy = req.user.id;
     let result = await addCardUsecase(dataToCreate,req,res);
     return responseHandler(res,result);
@@ -22,7 +18,6 @@ const bulkInsertCard = (bulkInsertCardUsecase)=> async (req,res) => {
     let dataToCreate = [...req.body.data];
     for (let i = 0;i < dataToCreate.length;i++){
       dataToCreate[i] = {
-        ...{ 'userID':(req && req.user && req.user.id ? req.user.id.toString() : null) },
         ...dataToCreate[i],
         addedBy:req.user.id,
       };

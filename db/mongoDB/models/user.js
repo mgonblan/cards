@@ -41,6 +41,10 @@ const schema = new Schema({
     type:Schema.Types.ObjectId,
     ref:'user'
   },
+  cards: {
+    ref:'user',
+    type:Schema.Types.ObjectId
+  },
   mobileNo: { type:String },
   resetPasswordLink: {
     code:String,
@@ -50,8 +54,7 @@ const schema = new Schema({
     type:Number,
     default:0
   },
-  loginReactiveTime: { type:Date },
-  ssoAuth: { githubId:{ type:String } }
+  loginReactiveTime: { type:Date }
 }
 ,{ 
   timestamps: { 

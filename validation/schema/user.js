@@ -15,12 +15,12 @@ const createSchema = joi.object({
   userType: joi.number().allow(0),
   isActive: joi.boolean(),
   isDeleted: joi.boolean(),
+  cards: joi.string().regex(/^[0-9a-fA-F]{24}$/).allow(null).allow(''),
   mobileNo: joi.string().allow(null).allow(''),
   resetPasswordLink: joi.object({
     code:joi.string(),
     expireTime:joi.date().options({ convert: true })
-  }),
-  ssoAuth: joi.object({ githubId:joi.string() })
+  })
 }).unknown(true);
 
 const updateSchema = joi.object({
@@ -31,12 +31,12 @@ const updateSchema = joi.object({
   userType: joi.number().allow(0),
   isActive: joi.boolean(),
   isDeleted: joi.boolean(),
+  cards: joi.string().regex(/^[0-9a-fA-F]{24}$/).allow(null).allow(''),
   mobileNo: joi.string().allow(null).allow(''),
   resetPasswordLink: joi.object({
     code:joi.string(),
     expireTime:joi.date().options({ convert: true })
   }),
-  ssoAuth: joi.object({ githubId:joi.string() }),
   _id: joi.string().regex(/^[0-9a-fA-F]{24}$/)
 }
 ).unknown(true);
@@ -52,8 +52,8 @@ let filterValidationSchema = joi.object({
       name: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
       isActive: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
       isDeleted: joi.alternatives().try(joi.array().items(),joi.boolean(),joi.object()),
+      cards: joi.alternatives().try(joi.array().items(),joi.string().regex(/^[0-9a-fA-F]{24}$/),joi.object()),
       mobileNo: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
-      ssoAuth: joi.alternatives().try(joi.array().items(),joi.string(),joi.object()),
       id: joi.any(),
       _id: joi.alternatives().try(joi.array().items(),joi.string().regex(/^[0-9a-fA-F]{24}$/),joi.object())
     }

@@ -14,13 +14,13 @@
 
 	- One user with User role,
 	# Default User credentials
-	**username** : Conor97
-	**password** : QtYpYmlrR1sTGfb
+	**username** : Kaden77
+	**password** : jw9WLeE71inD6Qg
 
 	- One user with Admin role,
 	# Default Admin credentials
-	**username** : Marta_Stehr
-	**password** : N4m46My3dJQw0CZ
+	**username** : Barton91
+	**password** : EupogRzIY4sAkoI
 	
 ## How to use generated APIs:
 [Click here to visit documentation](<https://docs.dhiwise.com/docs/node/generate-apis/> "API Documentation")

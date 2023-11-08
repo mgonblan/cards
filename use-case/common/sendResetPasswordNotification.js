@@ -45,15 +45,11 @@ const sendResetPasswordNotification = ({ userDb }) => async (user) => {
     }
   }
   if (FORGOT_PASSWORD_WITH.LINK.sms){
-    let updatedUser = await userDb.findOne({
-      _id:user.id,
-      isActive : true,
-      isDeleted : false,
-    });
-    let renderData = { userName:updatedUser.username, };
-    const msg = await ejs.renderFile(`${__basedir}/views/sms/ResetPassword/html.ejs`, renderData);
+    let viewType = '/reset-password/';
+    let link = `http://localhost:${process.env.PORT}${viewType + token}`;
+    const msg = await ejs.renderFile(`${__basedir}/views/sms/ResetPassword/html.ejs`, { link : link });
     let smsObj = {
-      to:updatedUser.mobileNo,
+      to:user.mobileNo,
       message:msg
     };
     try {
@@ -62,7 +58,6 @@ const sendResetPasswordNotification = ({ userDb }) => async (user) => {
     } catch (error){
       console.log(error);
     }
-
   }
   return response.success({
     data :{

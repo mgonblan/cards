@@ -30,9 +30,9 @@ const LOGIN_REACTIVE_TIME = 20;
 const FORGOT_PASSWORD_WITH = {
   LINK: {
     email: true,
-    sms: true
+    sms: false
   },
-  EXPIRE_TIME: 5
+  EXPIRE_TIME: 20
 };
 
 module.exports = {

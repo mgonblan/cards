@@ -12,11 +12,11 @@ module.exports = (user) => {
     updatedAt: user.updatedAt,
     addedBy: user.addedBy,
     updatedBy: user.updatedBy,
+    cards: user.cards,
     mobileNo: user.mobileNo,
     resetPasswordLink: user.resetPasswordLink,
     loginRetryLimit: user.loginRetryLimit,
     loginReactiveTime: user.loginReactiveTime,
-    ssoAuth: user.ssoAuth,
   };
 
   // remove undefined values

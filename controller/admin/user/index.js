@@ -1,6 +1,5 @@
 const userDb = require('../../../data-access/userDb');
 const cardDb = require('../../../data-access/cardDb');
-const CustomerDb = require('../../../data-access/CustomerDb');
 const userTokensDb = require('../../../data-access/userTokensDb');
 const roleDb = require('../../../data-access/roleDb');
 const projectRouteDb = require('../../../data-access/projectRouteDb');
@@ -36,7 +35,6 @@ const partialUpdateUserUsecase = require('../../../use-case/user/partialUpdateUs
 const softDeleteUserUsecase = require('../../../use-case/user/softDeleteUser')({
   userDb,
   cardDb,
-  CustomerDb,
   userTokensDb,
   roleDb,
   projectRouteDb,
@@ -46,7 +44,6 @@ const softDeleteUserUsecase = require('../../../use-case/user/softDeleteUser')({
 const softDeleteManyUserUsecase = require('../../../use-case/user/softDeleteManyUser')({
   userDb,
   cardDb,
-  CustomerDb,
   userTokensDb,
   roleDb,
   projectRouteDb,
@@ -58,7 +55,6 @@ const bulkUpdateUserUsecase = require('../../../use-case/user/bulkUpdateUser')({
 const deleteUserUsecase = require('../../../use-case/user/deleteUser')({
   userDb,
   cardDb,
-  CustomerDb,
   userTokensDb,
   roleDb,
   projectRouteDb,
@@ -68,7 +64,6 @@ const deleteUserUsecase = require('../../../use-case/user/deleteUser')({
 const deleteManyUserUsecase = require('../../../use-case/user/deleteManyUser')({
   userDb,
   cardDb,
-  CustomerDb,
   userTokensDb,
   roleDb,
   projectRouteDb,
