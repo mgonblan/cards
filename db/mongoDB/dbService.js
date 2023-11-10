@@ -1,76 +1,117 @@
 const mongoDbService = (Model) => {
   // for create one as well as create many
-  const create = (data) => new Promise((resolve, reject) => {
-    Model.create(data, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  const create = async (req, res) => {
+    try {
+      const newDocument = new Model(req.body);
+      const savedDocument = await newDocument.save();
+      res.status(201).json(savedDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // update single document that will return updated document
-  const updateOne = (filter, data, options = { new: true }) => new Promise((resolve, reject) => {
-    Model.findOneAndUpdate(filter, data, options, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for update one
+  const updateOne = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const updatedDocument = await Model.findByIdAndUpdate(
+        id,
+        req.body,
+        { new: true }
+      );
+      res.status(200).json(updatedDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // delete single document that will return updated document
-  const deleteOne = (filter, options = { new: true }) => new Promise((resolve, reject) => {
-    Model.findOneAndDelete(filter, options, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for update many
+  const updateMany = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const updatedDocument = await Model.findByIdAndUpdate(
+        id,
+        req.body,
+        { new: true }
+      );
+      res.status(200).json(updatedDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // update multiple documents and returns count
-  const updateMany = (filter, data) => new Promise((resolve, reject) => {
-    Model.updateMany(filter, data, (error, result) => {
-      if (error) reject(error);
-      else resolve(result.modifiedCount);
-    });
-  });
+  // for delete one
+  const deleteOne = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const deletedDocument = await Model.findByIdAndDelete(id);
+      res.status(200).json(deletedDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // delete multiple documents and returns count
-  const deleteMany = (filter, data) => new Promise((resolve, reject) => {
-    Model.deleteMany(filter, data, (error, result) => {
-      if (error) reject(error);
-      else resolve(result.deletedCount);
-    });
-  });
+  // for delete many
+  const deleteMany = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const deletedDocument = await Model.findByIdAndDelete(id);
+      res.status(200).json(deletedDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // find single document by query
-  const findOne = (filter) => new Promise((resolve, reject) => {
-    Model.findOne(filter, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for find one
+  const findOne = async (req, res) => {
+    try {
+      const { id } = req.params;
+      const foundDocument = await Model.findById(id);
+      res.status(200).json(foundDocument);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // find multiple documents
-  const findMany = (filter) => new Promise((resolve, reject) => {
-    Model.find(filter, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for find many
+  const findMany = async (req, res) => {
+    try {
+      const foundDocuments = await Model.find();
+      res.status(200).json(foundDocuments);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // count documents
-  const count = (filter) => new Promise((resolve, reject) => {
-    Model.countDocuments(filter, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for count
+  const count = async (req, res) => {
+    try {
+      const countDocuments = await Model.countDocuments();
+      res.status(200).json(countDocuments);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
-  // find documents with pagination
-  const paginate = (filter, options) => new Promise((resolve, reject) => {
-    Model.paginate(filter, options, (error, result) => {
-      if (error) reject(error);
-      else resolve(result);
-    });
-  });
+  // for paginate
+  const paginate = async (req, res) => {
+    try {
+      const { page, limit } = req.query;
+      const skip = limit * (page - 1);
+      const foundDocuments = await Model.find()
+      .skip(skip)
+      .limit(limit);
+      res.status(200).json(foundDocuments);
+    } catch (error) {
+      res.status(400).json({ error: error.message });
+    }
+  };
 
+  // return all functions
+
+
+
+  // for create one as well as create many
   return Object.freeze({
     create,
     updateOne,
@@ -81,7 +122,6 @@ const mongoDbService = (Model) => {
     findMany,
     count,
     paginate,
-  });
-};
+  });}
 
 module.exports = mongoDbService;
